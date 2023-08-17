@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <main>
+        <div class="game">
+            <h2>Select your Move</h2>
+            <div class="player-options">
+                <button id="rock"><i class="fas fa-fist-raised"></i></button>
+                <button id="paper"><i class="fas fa-solid fa-hand"></i></button>
+                <button id="scissor"><i class="fas fa-hand-peace"></i></button>
+            </div>
+            <p class="scores">Your Score:<span id="player-score">0</span></p>
+            <p class="scores">Computer Score:<span id="computer-score">0</span></p>
+            
+        </div>
+        <div class="display-card">
+            <h2>Computer Move</h2>
+            <div class="computer-card">
+                <i id="card"></i>
+            </div>
+            <p class="scores"><span id="result"></span></p>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
